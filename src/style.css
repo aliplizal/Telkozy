@@ -1,0 +1,958 @@
+/* Menambahkan gaya untuk font Baloo 2 */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+
+header {
+    display: flex !important;
+    align-items: center !important;
+}    
+/* Menggunakan font Baloo 2 untuk class .baloo-2 */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Baloo 2', sans-serif !important;
+}
+.logo {
+    width: 120px;
+    margin: 20px 50px 20px 50px;
+}
+.telkozy {
+    font-size: 50px;
+    color: #9B1111;
+    font-weight: 800;
+    margin: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px 20px 0px 20px;
+}
+
+.footer-content h3 {
+  margin-bottom: 20px;
+}
+
+.footer-content p {
+  margin-bottom: 20px;
+}
+
+.socials {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.socials li {
+  margin: 0 10px;
+}
+
+.socials li a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  background-color: #222;
+  color: #bbb;
+  padding: 15px 0;
+}
+.footer-bottom p {
+  margin: 0 auto;
+}
+/* STYLE INFO-KOST */
+.container-detail {
+  display: flex;
+}
+.box-foto-kost {
+position: relative;
+width: 900px;
+height: 580px;
+margin: 20px 70px 20px 50px;
+overflow: hidden;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.box-foto-kost i {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  font-size: 35px;
+  font-weight: 600;
+  color: #9B1111;
+}
+.foto-kost {
+min-width: 100%;
+box-sizing: border-box;
+}
+.foto-kost img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.informasi-kost {
+max-width: 410px;
+max-height: 580px;
+margin-left: 25px;
+margin-top: 20px;
+overflow-y: auto;
+}
+.informasi-kost h1 {
+  color: #0d1b46;
+  margin: 0;
+}
+.informasi-kost p {
+  margin: 0px;
+}
+
+.informasi-kost h2 {
+  color: #9B1111;
+  margin-top: 0;
+}
+.informasi-kost h2 span {
+  font-weight: 400;
+  display: inline;
+  margin: 0;
+  font-size: 25px;
+}
+.informasi-kost button {
+  display: inline;
+  border: 3px solid #9B1111;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #9B1111;
+  padding: 8px 20px ;
+  font-size: 15px;
+  margin-left: 15px;
+}
+.container-deskripsi {
+margin: 50px;
+}
+.maps {
+  height: 400px;
+  width: 100%;
+  background-color: #f0f0f0;
+  border: 2px solid #999;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.container-detail hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+}
+.button-edit{
+width: 100%;
+background-color: #9B1111;
+color: white;
+border: 3px solid #9B1111;
+border-radius: 7px;
+padding: 8px 20px ;
+font-size: 15px;
+margin-top: 50px;
+font-weight: 600;
+}
+@media screen and (max-width: 1000px){
+.container_detail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+}
+
+/* STYLE DAFTAR & LOGIN */
+.box_kiri{
+  float: left;
+  width: 50%;
+  height: 100vh;
+  background-color: #d9d9d9;
+}
+.box_kanan {
+  float: right;
+  width: 50%;
+  max-height: 100vh;
+  text-align: center;
+  margin-top: 50px;
+}
+.box_kanan p {
+  max-height: 20vh;
+  overflow-y: scroll;
+}
+.box_kanan h1 {
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+.box_kanan p b {
+  color: #9B1111;
+}
+select {
+  background-color: #d9d9d9;
+  padding: 10px 15px;
+  border-radius: 16px;
+  border: none;
+  font-size: 15px;
+}
+.box_kanan input {
+  margin-top: 20px;
+  border-radius: 16px;
+  border: 1px solid black;
+  padding: 10px;
+  width: 250px;
+}
+.box_kanan button {
+  background-color: #0D1B46;
+  color: white;
+  width: 100px;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 16px;
+  border: 1px solid black;
+}
+
+.login-text, .login-text:link{
+  text-decoration: none;
+  color:#9B1111;
+}
+
+.login-text:hover{
+  color: black;
+}
+.detail p,li {
+  font-size: 23px;
+}
+
+/* STYLE PROFIL-PENCARI */
+.container-profil-pencari {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.foto-profil {
+  width: 200px;
+  height: 200px;
+  background-color: #9B1111;
+  border-radius: 50%;
+}
+
+.foto-profil img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.identitas-akun {
+  margin-left: 50px;
+  color: #0D1B46;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.identitas-akun button {
+  background-color: #9B1111;
+  font-family: 'Baloo 2', sans-serif;
+  border: 3px solid #9B1111;
+  color: white;
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 80px;
+  height: 30px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.bookmark hr {
+  font-family: 'Baloo 2', sans-serif !important;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  border-bottom-width: 0px;
+}
+
+.bookmark-judul {
+  width: 115px;
+  border-top: 3px solid #0D1B46;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookmark-judul i {
+  color: #9B1111;
+  font-size: 18px;
+}
+
+.bookmark-judul p {
+  margin: 0px;
+  font-weight: 500;
+  font-size: 17px;
+  margin-left: 7px;
+}
+
+.bookmark-judul img {
+  margin-left: 6px;
+  width: 15px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.bookmark-kost {
+  max-width: 95%;
+  margin: 0 auto;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.bookmark-per-kost {
+  margin: 0 auto;
+  position: relative;
+}
+
+.bookmark-per-kost img {
+  width: 230px;
+  height: 230px;
+  border-radius: 10px;
+}
+
+.bookmark-per-kost i {
+  position: absolute;
+  top: 13px;
+  right: 18px;
+  font-size: 18px;
+  color: #9B1111;
+}
+
+.bookmark-deskripsi h1 {
+  color: #0d1b46;
+  margin: 0;
+  font-size: 17px;
+}
+
+.bookmark-deskripsi p {
+  margin: 0px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.bookmark-deskripsi h2 {
+  color: #9B1111;
+  margin-top: 0;
+  font-size: 17px;
+}
+
+.bookmark-deskripsi h2 span {
+  font-weight: 400;
+  display: inline;
+  margin: 0;
+  font-size: 17px;
+}
+
+.bookmark-deskripsi button {
+  display: inline;
+  border: 2px solid #9B1111;
+  border-radius: 5px;
+  background-color: #9B1111;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 5px;
+  width: 50px;
+  height: 20px;
+}
+.bookmark-kosong-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  text-align: center;
+  width: 100%;
+}
+
+.kost-kosong {
+  margin: 0;
+}
+
+/* STYLE SEARCH */
+.pengantar {
+  margin-left: 35px;
+}
+.pengantar h1, p {
+  margin: 0 auto;
+  color: #0D1B46;
+}
+.pengantar p {
+  margin-bottom: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin: 30px 25px 10px 30px;
+    gap: 20px;
+}
+
+.search-bar input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.search-bar button {
+    background-color: #9B1111;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search-bar  i {
+  font-size: 25px;
+  margin-left: 25px;
+}
+
+.kost-list {
+    list-style: none;
+    padding: 0;
+}
+
+.kost-list li {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.kost-list li .kost-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.kost-list li .kost-location {
+    margin-bottom: 5px;
+}
+
+.kost-list li .kost-price {
+    color: #9B1111;
+}
+.box-judul {
+  width: 115px;
+  border-top: 3px solid #0D1B46;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-judul i {
+  color: #9B1111;
+  font-size: 18px;
+}
+.box-judul p {
+  margin: 0px;
+  font-weight: 500;
+  font-size: 17px;
+  margin-left: 7px;
+}
+.box-judul img {
+  margin-left: 6px;
+  width: 15px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.box-kost {
+  max-width: 95%;
+  margin: 0 auto;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.box-per-kost img {
+  width: 220px;
+  height: 220px;
+  border-radius: 10px;
+}
+.box-per-kost i {
+  position: absolute;
+  top: 13px;
+  right: 18px;
+  font-size: 18px;
+  color: #9B1111;
+}
+.box-deskripsi h1 {
+  color: #0d1b46;
+  margin: 0;
+  font-size: 17px;
+}
+.box-deskripsi p {
+  margin: 0px;
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.box-deskripsi h2 {
+  color: #9B1111;
+  margin-top: 0;
+  font-size: 17px;
+}
+.box-deskripsi h2 span {
+  font-weight: 400;
+  display: inline;
+  margin: 0;
+  font-size: 17px;
+}
+.box-deskripsi button {
+  display: inline;
+  border: 2px solid #9B1111;
+  border-radius: 5px;
+  background-color: #9B1111;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 5px;
+  width: 50px;
+  height: 20px;
+}
+.ph.ph-funnel {
+  font-size: 24px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.filter-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.filter-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.filter-content .close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.filter-content .close:hover,
+.filter-content .close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.filter-group {
+  margin-bottom: 20px;
+}
+
+.filter-group h3 {
+  margin-bottom: 10px;
+}
+
+.filter-group button {
+  background-color: #fff;
+  border: 1px solid #b22222;
+  color: #b22222;
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.filter-group button:hover {
+  background-color: #b22222;
+  color: #fff;
+}
+
+.filter-group input[type="number"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.filter-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.filter-button {
+  background-color: #b22222;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  font-size: 16px;
+}
+
+.filter-button:hover {
+  background-color: #8b1a1a;
+}
+
+.kost-list {
+  list-style: none;
+  padding: 0;
+}
+
+.kost-list li {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.kost-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.kost-location {
+  color: #666;
+}
+
+.kost-price {
+  color: #b22222;
+  font-weight: bold;
+}
+
+/* STYLE FILTER */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  position: relative;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-content {
+  color: #0D1B46;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: calc(50% - 10px);
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+.filter-btn {
+  background-color: #c0392b;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+}
+
+.filter-btn:hover {
+  background-color: #e74c3c;
+}
+
+/* STYLE EDIT PROFIL */
+.container-edit-profil {
+  color: #0D1B46;
+  margin-right: 50px;
+  margin-left: 70px;
+  display: flex;
+}
+.container-edit-profil h2 {
+  font-size: 25px;
+  margin: 0px auto;
+}
+.image-container {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin-top: 8px;
+  background-color: #9B1111;
+  border-radius: 10px;
+}
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); 
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1; 
+}
+.overlay .text {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.identitas-edit input {
+  padding-left: 20px;
+  width: 600px;
+  height: 50px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 1px solid #0D1B46;
+  font-size: 20px;
+}
+.identitas-edit {
+  margin-right: 50px;
+  margin-left: 100px;
+  margin-top: 87px;
+}
+.identitas-edit a {
+  text-decoration: none;
+  color: inherit;
+}
+.identitas-edit button {
+  border: 2px solid #9B1111;
+  color: white;
+  border-radius: 5px;
+  background-color: #9B1111;
+  font-size: 15px;
+  margin-left: 5px;
+  width: 100px;
+  height: 40px;
+  margin-top: 100px;
+  margin-left: 500px;
+}
+
+/* STYLE FORGET PASSWORD */
+.container-lupa-password {
+  text-align: center;
+  color: #0D1B46;
+  margin-right: 50px;
+  margin-left: 70px;
+}
+.cover-container {
+  margin-top: 100px;
+}
+.container-lupa-password h1 {
+  font-size: 40px;
+  margin-top: 100px;
+}
+.container-lupa-password p {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 600px;
+  font-size: 15px;
+  margin: 0px 0px 10px 400px;
+  font-size: 18px;
+}
+.container-lupa-password input {
+  padding-left: 20px;
+  width: 600px;
+  height: 40px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 1px solid #0D1B46;
+  font-size: 18px;
+}
+.container-lupa-password button {
+  border: 2px solid #9B1111;
+  color: white;
+  border-radius: 5px;
+  background-color: #9B1111;
+  font-size: 16px;
+  width: 625px;
+  height: 40px;
+}
+
+/* STYLE EDIT KOST */
+.container-edit-kost h1{
+  font-size: 25px;
+  font-weight: 650 !important;
+  color: #0D1B46;
+}
+.top{
+  display: flex;
+}
+.image-kost {
+  position: relative;
+  width: 750px;
+  height: 590px;
+  margin: 20px 70px 0px 50px;
+  background-color: #9B1111;
+  border-radius: 10px;
+}
+.image-kost img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); 
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1; 
+}
+.overlay .text {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+.informasi-kost-edit button {
+  border: 2px solid #9B1111;
+  color: white;
+  border-radius: 5px;
+  background-color: #9B1111;
+  font-size: 15px;
+  width: 100px;
+  height: 40px;
+}
+.informasi-kost-edit {
+  margin: 0 auto;
+}
+.informasi-kost-edit input{
+  padding: 20px;
+  width: 580px;
+  height: 50px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 1px solid #0D1B46;
+  font-size: 20px;
+}
+.informasi-kost-edit select{
+  padding-left: 20px;
+  width: 580px;
+  height: 50px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  border: 1px solid #0D1B46;
+  font-size: 20px;
+}
+.tambah_foto {
+  display: flex;
+  align-items: center;
+}
+.bottom{
+  max-width: 100%;
+  margin: 20px 70px 0px 50px;
+}
+.bottom textarea {
+  width: 700px;
+  height: 200px;
+  margin-right: 20px;
+  gap: 20px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  border: 1px solid #0D1B46;
+}
+.submit {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 660px
+}
+.submit button{
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #9B1111;
+  color: white;
+  font-size: 15px;
+  border: none;
+}
+@media (min-width: 768px) {
+  .informasi-kost-edit {
+    width: 40%;
+  }
+  .bottom-kiri, .bottom-kanan {
+    width: 48%;
+  }
+}
